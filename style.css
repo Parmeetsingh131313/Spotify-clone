@@ -1,0 +1,110 @@
+/* import font here */
+/* import second font here */
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0px 3px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+}
+
+.bottom{
+    position: sticky;
+    height: 135px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 6px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    font-size: 20px;
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0; /*it has no effect*/
+    transition: opacity 0.4s ease-in;
+}
